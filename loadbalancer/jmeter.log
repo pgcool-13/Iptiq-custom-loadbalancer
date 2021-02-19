@@ -1,0 +1,20 @@
+2021-02-15 19:13:42,759 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-02-15 19:13:42,783 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.4.1/libexec/bin/user.properties
+2021-02-15 19:13:42,784 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.4.1/libexec/bin/system.properties
+2021-02-15 19:13:42,792 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2021-02-15 19:13:42,792 INFO o.a.j.JMeter: Version 5.4.1
+2021-02-15 19:13:42,792 INFO o.a.j.JMeter: java.version=15.0.1
+2021-02-15 19:13:42,792 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2021-02-15 19:13:42,792 INFO o.a.j.JMeter: os.name=Mac OS X
+2021-02-15 19:13:42,792 INFO o.a.j.JMeter: os.arch=x86_64
+2021-02-15 19:13:42,793 INFO o.a.j.JMeter: os.version=11.1
+2021-02-15 19:13:42,793 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-02-15 19:13:42,793 INFO o.a.j.JMeter: java.awt.headless=null
+2021-02-15 19:13:42,793 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-02-15 19:13:42,793 INFO o.a.j.JMeter: Available Processors =8
+2021-02-15 19:13:42,801 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-02-15 19:13:42,802 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-02-15 19:13:42,802 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.4.1/libexec
+2021-02-15 19:13:42,802 INFO o.a.j.JMeter: user.dir  =/Users/priyagupta/eclipse-workspace/loadbalancer
+2021-02-15 19:13:42,802 INFO o.a.j.JMeter: PWD       =/Users/priyagupta/eclipse-workspace/loadbalancer
+2021-02-15 19:13:42,808 INFO o.a.j.JMeter: IP: 192.168.178.24 Name: EPCHZURW01FE FullName: epchzurw01fe.fritz.box

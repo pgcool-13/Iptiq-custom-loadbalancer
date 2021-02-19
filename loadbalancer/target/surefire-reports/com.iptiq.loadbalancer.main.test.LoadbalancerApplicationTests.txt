@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.iptiq.loadbalancer.main.test.LoadbalancerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.62 s - in com.iptiq.loadbalancer.main.test.LoadbalancerApplicationTests

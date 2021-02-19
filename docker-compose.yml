@@ -1,0 +1,122 @@
+version: '3.8'
+services:
+  loadbalancer:
+    image: loadbalancer
+    build:
+      args:
+        - PORT=8080
+      context: .
+      dockerfile: loadbalancer/Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - provider-3000
+      - provider-3001
+      - provider-3002
+      - provider-3003
+      - provider-3004
+      - provider-3005
+      - provider-3006
+      - provider-3007
+      - provider-3008
+      - provider-3009
+
+  provider-3000:
+    image: provider-3000
+    build:
+      args:
+        - PORT=3000
+      context: .
+      dockerfile: provider/Dockerfile
+    ports:
+      - "3000:3000"
+      
+  provider-3001:
+    image: provider-3001
+    build:
+      args:
+        - PORT=3001
+      context: .
+      dockerfile: provider/Dockerfile
+    ports:
+      - "3001:3001"
+      
+  provider-3002:
+    image: provider-3002
+    build:
+      args:
+        - PORT=3002
+      context: .
+      dockerfile: provider/Dockerfile
+    ports:
+      - "3002:3002"
+      
+  provider-3003:
+    image: provider-3003
+    build:
+      args:
+        - PORT=3003   
+      context: .
+      dockerfile: provider/Dockerfile
+    ports:
+      - "3003:3003"
+
+  provider-3004:
+    image: provider-3004
+    build:
+      args:
+        - PORT=3004 
+      context: .
+      dockerfile: provider/Dockerfile
+    ports:
+      - "3004:3004"
+
+  provider-3005:
+    image: provider-3005
+    build:
+      args:
+        - PORT=3005   
+      context: .
+      dockerfile: provider/Dockerfile
+    ports:
+      - "3005:3005"
+
+  provider-3006:
+    image: provider-3006
+    build:
+      args:
+        - PORT=3006   
+      context: .
+      dockerfile: provider/Dockerfile
+    ports:
+      - "3006:3006"
+      
+  provider-3007:
+    image: provider-3007
+    build:
+      args:
+        - PORT=3007   
+      context: .
+      dockerfile: provider/Dockerfile
+    ports:
+      - "3007:3007"
+
+  provider-3008:
+    image: provider-3008
+    build:
+      args:
+        - PORT=3008   
+      context: .
+      dockerfile: provider/Dockerfile
+    ports:
+      - "3008:3008"
+
+  provider-3009:
+    image: provider-3009
+    build:
+      args:
+        - PORT=3009   
+      context: .
+      dockerfile: provider/Dockerfile
+    ports:
+      - "3009:3009"

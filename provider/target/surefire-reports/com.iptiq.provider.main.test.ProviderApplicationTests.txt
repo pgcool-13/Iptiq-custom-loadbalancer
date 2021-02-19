@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.iptiq.provider.main.test.ProviderApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.862 s - in com.iptiq.provider.main.test.ProviderApplicationTests

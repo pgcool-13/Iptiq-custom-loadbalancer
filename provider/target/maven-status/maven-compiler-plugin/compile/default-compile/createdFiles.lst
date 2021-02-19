@@ -1,0 +1,3 @@
+com/iptiq/provider/main/ProviderApplication.class
+com/iptiq/provider/controller/ProviderController.class
+com/iptiq/provider/service/ProviderService.class
