@@ -5,8 +5,10 @@ Objective(Task description):
 ----------------------------
 Step 1 – Generate provider
   Generate a Provider that, once invoked on his get() method, retrieve an unique identifier (string) of the provider instance
+  
 Step 2 – Register a list of providers
   Register a list of provider instances to the Load Balancer - the maximum number of providers accepted from the load balancer is 10
+  
 Step 3 – Random invocation
   Develop an algorithm that, when invoking multiple times the Load Balancer on its get() method, should cause the random invocation of the get() method of any    r   registered provider instance.
 Step 4 – Round Robin invocation
